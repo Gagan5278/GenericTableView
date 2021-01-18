@@ -7,10 +7,10 @@ An example to use of generics with UITableViewController. With help of GenericLi
  - Create a subclass of GenericListViewController say RootViewController.
  - Create subclass of BaseTableViewCell say RootTableViewCell. Your custom cell code will be as below
  
-    class RootTableViewCell: BaseTableViewCell<ModelRoot> {
+  ````class RootTableViewCell: BaseTableViewCell<ModelRoot> {
      .....
      .....
-   }
+    }```
     
  
  
